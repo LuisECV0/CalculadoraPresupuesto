@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora maqueta</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css">
-    
 </head>
 <body>
     <header class="header">
@@ -27,24 +26,25 @@
             <li><i class="fa-solid fa-lock"></i> 0 artículo</li>
         </ul>
     </header>
+
+
     <div class="calc-presupuesto">
+      
         <div class="box-calc">
             <h1>Calcula tu presupuesto</h1>
             <div class="sub-box">
-                 <img src="./resourses/asis.png" alt="" class="position-right-top">
+                <img src="./resourses/asis.png" alt="" class="position-right-top">
                 <div class="target">
-                    <p>Encontremos el número ideal de paneles 
-                    solares para cubrir tu consumo eléctrico.</p>
+                    <p>Parece que necesitarás un sistema de 7 a 9 
+                        kW para eliminar tu factura de electricidad</p>
                     <hr>
-                    <p class="weight">¿Cuál es su consumo eléctrico promedio mensual?</p>
-
-                    <div class="slider-container">
-                        <div class="circle"></div>
-                        <div class="value-box"> 375 € </div>
-                        <input type="range" class="slider" min="0" max="750" value="375" step="1">  
+                    <p class="weight">¿Para que dirección es?</p>
+                    <div class="input-with-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" placeholder="">
                     </div>
                     <div class="button">
-                        <a href="two.html"><button>Siguiente <i class="fa-solid fa-chevron-right"></i></button> </a>
+                        <a href="four.html"><button>Siguiente <i class="fa-solid fa-chevron-right"></i></button> </a>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,6 @@
     </div>
 
     <script src="slider.js"></script>
-
     <script src="https://kit.fontawesome.com/f92ba764dc.js" crossorigin="anonymous"></script>
 </body>
 </html>

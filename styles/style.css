@@ -71,43 +71,52 @@
     color: black;
     
 }
-/*
-.box-oferta {
-    background-image: url("../resourses/descuento.webp");
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center center;  
-    height: 100vh; /
-}*/
+.logo {
+    background-color:  rgb(227, 158, 68);
+}
+.logo img {
+    width: 100px;
+}
 .calc-presupuesto {
     padding: 10px;
     background-color: rgb(227, 158, 68);
+    display: flex;
+    justify-content: center;
 }
 .calc-presupuesto img {
-    width: 100px;
+    width: 100px;   
 }
 .target {
     background-color: #ffffff;
     border-radius: 20px;
-    
-    width: 50%;
+    height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 30%;
     padding-right: 10%;
+    padding-bottom: 50px;
 }
 .weight {
+    font-size: 10px;
     font-weight: 600;
 }
 .target p {
-    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 17px;
 }
 .box-calc {
-    border: 1px solid red;
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
 }
 .box-calc h1 {
     text-align: center;
+    font-size: 35px;
+    padding: 10px
 }
 .sub-box {
     display: flex;
@@ -118,13 +127,13 @@
     width: 100%;
     position: relative;
     text-align: center;
-    margin: 20px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 .slider {
     width: 100%;
     height: 3px;
- 
-    position: relative;
     z-index: 1;
     
 }
@@ -159,4 +168,23 @@
     top: 50%;
     left: 10px;
     transform: translateY(-50%);
+}
+.button {
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.button button {
+    background-color: orange;
+    border: none;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 6px 20px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+}
+.button i {
+    color: #ffffff;
 }
