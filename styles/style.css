@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    font-weight: 600;
+    font-size: 12px;
+    justify-content: space-around;
+}
+.header img {
+    width: 9%;
+    height:auto ;
+
+}
+.list-ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 60%;
+    justify-content: flex-start;
+}
+.list-ul li{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px 5px;
+    color: rgb(132, 132, 132);
+    transition: .5s;
+    cursor: pointer;
+}
+.list-ul li:hover {
+    background-color: rgb(218, 218, 218);
+    border-radius: 10px;
+    transition: .5s;
+}
+.list-ull{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 30%;
+    justify-content: flex-end;
+    font-size: 15px;
+    
+}
+.list-ull li {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    padding: 0 10px;
+    color: rgb(132, 132, 132);
+    cursor: pointer;
+       
+}
+.list-ull li:active {
+    transform: scale(1.5);
+    transition: transform 0.5s;
+    filter: brightness(1.2);
+    color: black;
+    
+}
+/*
+.box-oferta {
+    background-image: url("../resourses/descuento.webp");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;  
+    height: 100vh; /
+}*/
+.calc-presupuesto {
+    padding: 10px;
+    background-color: rgb(227, 158, 68);
+}
+.calc-presupuesto img {
+    width: 100px;
+}
+.target {
+    background-color: #ffffff;
+    border-radius: 20px;
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30%;
+    padding-right: 10%;
+}
+.weight {
+    font-weight: 600;
+}
+.target p {
+    padding: 20px;
+}
+.box-calc {
+    border: 1px solid red;
+}
+.box-calc h1 {
+    text-align: center;
+}
+.sub-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.slider-container {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 20px;
+}
+.slider {
+    width: 100%;
+    height: 3px;
+ 
+    position: relative;
+    z-index: 1;
+    
+}
+.value-box {
+    width: 40px;
+    height: 20px;
+    border: 1px solid orangered;
+    background-color: #ffffff;
+    color: #080808;
+    border-radius: 4px;
+    text-align: center;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.fa-solid {
+    color: rgb(237, 164, 28);
+}
+.input-with-icon {
+    position: relative;
+}
+.input-with-icon input {
+    padding-left: 30px; 
+    border-radius: 10px;
+    padding: 5px 30px;
+    border: 1px solid rgb(233, 152, 40);
+}
+.input-with-icon i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
