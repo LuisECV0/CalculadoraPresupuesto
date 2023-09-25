@@ -1,0 +1,52 @@
+.calc-presupuesto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(227, 158, 68); 
+    height: 90vh;  
+    border: none; /*             background-color: #f79426; */
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box h1 {
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 10px solid gray;
+    width: 400px;
+}
+.container2{
+    display:flex;
+    flex-direction: column;
+    background: rgb(193, 28, 31);
+}
+.container3 {
+    display:flex;
+    flex-direction: row;
+    background: rgb(28, 135, 193); 
+}
+.figure1 {
+    background: rgb(53, 51, 153);
+    width:200px;
+    height: 200px;
+ 
+}
+.figure2 {
+    background: rgb(61, 153, 51);
+    width:200px;
+    height: 400px;
+ 
+}
+.figure3 ,.figure4 {
+    background: gold;
+    width:90px;
+    height: 90px;
+    margin: 5%     
+}
