@@ -5,11 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <style>
+        .sub-box {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; /* Esto distribuirá los elementos a lo largo del eje horizontal */
+            align-items: center; /* Esto alineará verticalmente los elementos al centro */
+        }
+        
+        .sub-box img.position-right-top {
+            align-self: flex-start; /* Esto alinea la imagen en la parte superior del sub-box */
+            margin-right: 10px; /* Añade un margen derecho para separar la imagen del texto */
+        }
+    </style>
 </head>
 <body>
     <div id="header-container"></div>
-
-
     <div class="calc-presupuesto">
       
         <div class="box-calc">
