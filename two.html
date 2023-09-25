@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <style>
+        .sub-box {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            position: relative; 
+        }
+        .sub-box img.position-right-top {
+            position: absolute;
+            top: 0;
+            left: -15%; 
+            margin-right: 10px; 
+        }
+        
+    </style>
 </head>
 <body>
     <div id="header-container"></div>
@@ -12,12 +27,13 @@
         <div class="box-calc">
             <h1>Calcula tu presupuesto</h1>
             <div class="sub-box">
-                <img src="./resourses/asis.png" alt="" class="position-right-top">
+                <img src="./resourses/asis.png" alt="asistente" style="width: 250px;" class="position-right-top">
                 <div class="target">
                     <p>Parece que necesitarás un sistema de 7 a 9 
                             kW para eliminar tu factura de electricidad</p>
                     <hr>
                     <p class="weight">¿Para que dirección es?</p>
+                    <p>Direccion: </p>
                     <div class="input-with-icon">
                         <i class="fa-solid fa-location-dot"></i>
                         <input type="text" placeholder="">

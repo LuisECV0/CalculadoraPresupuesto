@@ -9,40 +9,43 @@
         .sub-box {
             display: flex;
             flex-direction: row;
-            justify-content: space-between; /* Esto distribuirá los elementos a lo largo del eje horizontal */
-            align-items: center; /* Esto alineará verticalmente los elementos al centro */
+            align-items: center;
+            position: relative; 
+        }
+        .sub-box img.position-right-top {
+            position: absolute;
+            top: 0;
+            left: -15%; 
+            margin-right: 10px; 
         }
         
-        .sub-box img.position-right-top {
-            align-self: flex-start; /* Esto alinea la imagen en la parte superior del sub-box */
-            margin-right: 10px; /* Añade un margen derecho para separar la imagen del texto */
-        }
     </style>
 </head>
+
 <body>
     <div id="header-container"></div>
+
     <div class="calc-presupuesto">
-      
         <div class="box-calc">
-            <h1>Calcula tu presupuesto</h1>
-            <div class="sub-box">
-                <img src="./resourses/asis.png" alt="" class="position-right-top">
-                <div class="target">
-                    <p>Parece que necesitarás un sistema de 7 a 9 
-                        kW para eliminar tu factura de electricidad</p>
-                    <hr>
-                    <p class="weight">¿Para que dirección es?</p>
-                    <div class="input-with-icon">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <input type="text" placeholder="">
-                    </div>
-                    <div class="button">
+             <h1>Calcula tu presupuesto</h1>
+             <div class="sub-box">
+                 <img src="./resourses/asis.png" alt="asistente" style="width: 250px;" class="position-right-top">
+                 <div class="target">
+                     <p>Según su dirección, parece que opta a
+                         incentivos</p>
+                     <hr>
+                     <p class="weight">¿Para quién es esto?</p>
+                     <div class="input-with-icon">
+                         <p>Nombre completo</p>
+                         <input type="text" placeholder="">
+                     </div>
+                     <div class="button">
                         <a href="four.html"><button>Siguiente <i class="fa-solid fa-chevron-right"></i></button> </a>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                 </div>
+             </div>
+         </div>
+     </div>
     <script src="loadHeader.js"></script>
     <script src="slider.js"></script>
     <script src="https://kit.fontawesome.com/f92ba764dc.js" crossorigin="anonymous"></script>
