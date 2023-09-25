@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    font-weight: 600;
+    font-size: 12px;
+    justify-content: space-around;
+}
+.header img {
+    width: 9%;
+    height:auto ;
+
+}
+.list-ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 60%;
+    justify-content: flex-start;
+}
+.list-ul li{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px 5px;
+    color: rgb(132, 132, 132);
+    transition: .5s;
+    cursor: pointer;
+}
+.list-ul li:hover {
+    background-color: rgb(218, 218, 218);
+    border-radius: 10px;
+    transition: .5s;
+}
+.list-ull{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 30%;
+    justify-content: flex-end;
+    font-size: 15px;
+    
+}
+.list-ull li {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    padding: 0 10px;
+    color: rgb(132, 132, 132);
+    cursor: pointer;
+       
+}
+.list-ull li:active {
+    transform: scale(1.5);
+    transition: transform 0.5s;
+    filter: brightness(1.2);
+    color: black;
+    
+}
+.logo {
+    background-color:  rgb(227, 158, 68);
+}
+.logo img {
+    width: 100px;
+}

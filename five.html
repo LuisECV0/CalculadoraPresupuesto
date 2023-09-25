@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .calc-presupuesto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color:  rgb(227, 158, 68); 
+            height: 90vh;  
+            border: none; /*             background-color: #f79426; */
+        }
+        .box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .box h1 {
+            font-size: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            border: 10px solid gray;
+            width: 400px;
+        }
+        .container2{
+            display:flex;
+            flex-direction: column;
+            background: rgb(193, 28, 31);
+        }
+        .container3 {
+            display:flex;
+            flex-direction: row;
+            background: rgb(28, 135, 193); 
+        }
+        .figure1 {
+            background: rgb(53, 51, 153);
+            width:200px;
+            height: 200px;
+         
+        }
+        .figure2 {
+            background: rgb(61, 153, 51);
+            width:200px;
+            height: 400px;
+         
+        }
+        .figure3 ,.figure4 {
+            background: gold;
+            width:90px;
+            height: 90px;
+            margin: 5%     
+        }
+    </style>
+</head>
+<body>
+    <div id="header-container"></div>
+    <div class="calc-presupuesto">
+        <h1>Calcula tu presupuesto</h1>
+        <div class="container">
+
+            <div class="container2">
+                <div class="figure1">1</div>
+
+                <div class="container3">
+                    <div class="figure3">3</div>
+                    <div class="figure4">4</div>
+                </div>
+                
+            </div>
+
+            <div class="figure2">2</div>
+        </div>
+    </div>
+    <script src="loadHeader.js"></script>
+    <script src="slider.js"></script>
+    <script src="https://kit.fontawesome.com/f92ba764dc.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
